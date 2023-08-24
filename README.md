@@ -37,7 +37,7 @@ Classes podem ser reutilizadas na mesma página e combinadas com as outras class
 
 ### ID (Identificador)
 
-Regras citadas com seletor do tipo ID, são mais versáteis , ou seja, você desenvolvedor (a) determina onde aplicar a classe e sua formatação. **Atenção!** você não pode reaproveitar IDs, ou seja, ID deve ser usado SOMENTE PARA UM ELEMENTO por página. 
+Regras citadas com seletor do tipo ID, também são versáteis , ou seja, você desenvolvedor (a) determina onde aplicar a classe e sua formatação. **Atenção!** você não pode reaproveitar IDs, ou seja, ID deve ser usado SOMENTE PARA UM ELEMENTO por página. 
 
 
 
