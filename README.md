@@ -21,3 +21,18 @@ O CSS é criado usando regras (com seletores, propriedades e valores) dentro da 
 As regras vão valer para todas as tags e elementos desta página. 
 
 
+--- 
+
+### Sobre seletores 
+
+#### TAG 
+
+Regras citadas com seletor do tipo tag, são mais generalistas , ou seja, a formatação será aplicadas á todas as tags que "casem com o seletor. 
+
+#### CLASS
+
+Regras citadas com seletor do tipo classe, são mais versáteis , ou seja, você desenvolvedor (a) determina onde aplicar a classe e sua formatação. 
+
+Classes podem ser reutilizadas na mesma página e combinadas com as outras classe. 
+
+
