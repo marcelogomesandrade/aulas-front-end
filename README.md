@@ -21,6 +21,15 @@ O CSS é criado usando regras (com seletores, propriedades e valores) dentro da 
 As regras vão valer para todas as tags e elementos desta página. 
 
 
+### Externa 
+
+Arquivo CSS dedicado a elaboração de regras CSS
+
+Este arquivo será conectado á cada página HTML do seu site, permitindo assim centralizar toda a estilizada de um projeto. 
+
+
+
+
 --- 
 
 ### Sobre seletores 
@@ -38,6 +47,8 @@ Classes podem ser reutilizadas na mesma página e combinadas com as outras class
 ### ID (Identificador)
 
 Regras citadas com seletor do tipo ID, também são versáteis , ou seja, você desenvolvedor (a) determina onde aplicar a classe e sua formatação. **Atenção!** você não pode reaproveitar IDs, ou seja, ID deve ser usado SOMENTE PARA UM ELEMENTO por página. 
+
+
 
 
 
