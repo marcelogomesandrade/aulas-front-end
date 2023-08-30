@@ -8,7 +8,13 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-image:url(../imagens/oriental-tiles.png) ;
 background-attachment: fixed;
 }
-h1 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1 {
+    
+    animation-name: caindo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     color:white;
 
@@ -167,12 +173,22 @@ figure img {filter: grayscale();
 transition: 0.5s;
 transform: scale(0.8);}
 
-/* usar quando necessário o clip-path */
+/* usar quando necessário o clip-path, rotate para rodar a foto  */
 
 
 figure img:hover {filter:none;
 transform:scale(1);}
 
+/* Regras de Animação */
+
+
+@keyframes caindo{
+/* Como começa: */
+    from {transform: translateY(-100px);
+          opacity: 0;}
+    /* Como termina: */
+    to {transform: translateV (0);}
+    }
 
 
 
