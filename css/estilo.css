@@ -164,11 +164,14 @@ nav a {
  }
 
 figure img {filter: grayscale();
-transition: 2s;
-clip-path: circle(50% at 50% 50%);}
+transition: 0.5s;
+transform: scale(0.8);}
+
+/* usar quando necessário o clip-path */
 
 
-figure img:hover {clip-path: circle(26.3% at 50% 50%);filter:none;}
+figure img:hover {filter:none;
+transform:scale(1);}
 
 
 
