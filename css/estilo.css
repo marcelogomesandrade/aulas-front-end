@@ -119,4 +119,57 @@ h2 {
  }
 
 
+ /* Regras para o menu */
+
+ nav {text-align: center;}
+
+ /* Regra para o estado inicial do link */
+
+nav a {
+
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color:darkred;
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    /* Alterando o Box Model fazendo com que padding e não intefiram entre si nas dimensões finais dos elementos  */
+    box-sizing: border-box;
+    
+}
+ nav a :first-child {
+
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+ }
+
+ nav a :last-child {
+
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+ } 
+    
+  
+
+ /* Regra para o estado do link acionado Pseudo-classe :hover  (passar o mouse) Pseudo-classe : focus (receber foco)
+ */
+
+ nav a:hover, nav a:focus {
+
+    background-color: darkblue;
+    color: white;
+ }
+
+figure img {filter: grayscale();
+transition: 2s;}
+
+
+figure img:hover {filter:none;}
+
+
+
+
 
