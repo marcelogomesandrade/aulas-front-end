@@ -164,10 +164,11 @@ nav a {
  }
 
 figure img {filter: grayscale();
-transition: 2s;}
+transition: 2s;
+clip-path: circle(50% at 50% 50%);}
 
 
-figure img:hover {filter:none;}
+figure img:hover {clip-path: circle(26.3% at 50% 50%);filter:none;}
 
 
 
