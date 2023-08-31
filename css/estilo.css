@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+
 /* Neste arquivo , faremos todas as REGRAS
 CSS necessárias para a formatação do site */
 
@@ -14,7 +17,7 @@ h1 {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Rubik Iso', cursive;
     
     color:white;
 
@@ -47,11 +50,14 @@ h1 {
 
     background-color: white;
     width: 80%;
+    max-width: 800px;
+    min-width: 500px;
     margin: auto;
     box-shadow: black 0 0 5px;
     padding: 16px;
     border-radius: 8px;
     ;
+
     
 }
 
@@ -147,19 +153,17 @@ nav a {
  nav a :first-child {
 
     border-top-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
 
  }
 
  nav a :last-child {
 
-    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 
- } 
-    
+ }   
   
-
  /* Regra para o estado do link acionado Pseudo-classe :hover  (passar o mouse) Pseudo-classe : focus (receber foco)
  */
 
@@ -190,6 +194,10 @@ transform:scale(1);}
     to {transform: translateV (0);}
     }
 
-
-
-
+/* Pseudo-classe:
+   :first-child 
+   :last-child
+   :nth-child ()
+    */
+ li:first-child {color:red;}
+ li:last-child{color: blue;}
