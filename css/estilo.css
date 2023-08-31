@@ -201,3 +201,4 @@ transform:scale(1);}
     */
  li:first-child {color:red;}
  li:last-child{color: blue;}
+ li:nth-child(3),li:nth-child(2), li:nth-child(4){color: rgb(204, 135, 8);}
