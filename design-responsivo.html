@@ -26,11 +26,56 @@
       background-color: blue; }
 
  b { background-color: white;
-     padding: 2px;
-      }     
+     padding: 1px;
+     border-radius: 3px; }     
 
-/* Etapa 02: regras de uso condicional, ou seja, regras que serão aplicadas de acordo com determinadas situações (exemplo:regras que somente funcionarão se o site estiver em uma tela maior que 1000px.) */
+/* Etapa 02: regras de uso condicional, ou seja, regras que serão aplicadas de acordo com determinadas situações (exemplo:regras que somente funcionarão se o site estiver em uma tela maior que 1000px.)  
 
+Estas regras especiais/condicionais são conhecidas "Media Queries".*/
+
+@media screen and (min-width:550px){ 
+
+    body {background-color: black;}
+    h1{text-align: center;}
+    hr {width:30px;}
+}  
+
+@media screen and (min-width: 720px) {
+
+    {width: 75%; margin: auto;}
+    
+}
+
+
+@media screen and (min-width: 895px) { 
+
+   h1 {background-color:linear-gradient (to left,lightblue,transparent);}
+
+
+}
+   
+
+    
+    
+
+
+    /* Exercicio (aqui mesmo)
+    
+    1) Faça uma regra condicional para telas com tamanho maior ou igual a 720px em que as seguintes alterações aconteçam: 
+    
+    - div exemplo deve ter largura de 75% e ficar no meio 
+    - Os negritos devem ter outra cor de fundo
+    - O tamanho dos parágrafos deve ser de 18px
+    
+    
+    2) Faça mais de uma regra condicional para telas de pelo menos 895px com as seguintes alterações: 
+    
+    -  O h1 deve receber um plano de fundo com qualquer cor e com pouco de transparência (na cor) */
+
+
+
+
+    
 
 
 
